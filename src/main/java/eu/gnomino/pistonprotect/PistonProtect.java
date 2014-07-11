@@ -18,7 +18,7 @@ public class PistonProtect extends JavaPlugin {
 		if (cmd.getName().equalsIgnoreCase("pistonprotect-reload")) {
 			reloadConfig();
 			Command.broadcastCommandMessage(sender,
-					"Reloaded PistonProtect's config");
+					"Reloaded " + getName() + "'s config");
 		}
 		return false;
 	}
