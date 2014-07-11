@@ -18,9 +18,6 @@ import com.sk89q.worldguard.protection.regions.ProtectedRegion;
 
 import eu.gnomino.pistonprotect.PistonProtect;
 
-// Bombero, bombero, yo quiero ser bombero ! Bombero, bombero, Porque es mi voluntad !
-// Bombero, bombero, bombero, yo quiero ser bombero ! Que nadie se melta con mi identidad !
-
 public class PistonListener implements Listener {
 	private final PistonProtect pl;
 	public PistonListener(PistonProtect pl) {
