@@ -9,12 +9,16 @@ import eu.gnomino.pistonprotect.Listeners.PistonListener;
 public class PistonProtect extends JavaPlugin {
 	public void onEnable() {
 		saveDefaultConfig();
-		getServer().getPluginManager().registerEvents(new PistonListener(this), this);
+		getServer().getPluginManager().registerEvents(new PistonListener(this),
+				this);
 	}
-	public boolean onCommand(CommandSender sender, Command cmd, String label, String[] args) {
+
+	public boolean onCommand(CommandSender sender, Command cmd, String label,
+			String[] args) {
 		if (cmd.getName().equalsIgnoreCase("pistonprotect-reload")) {
 			reloadConfig();
-			Command.broadcastCommandMessage(sender, "Reloaded PistonProtect's config");
+			Command.broadcastCommandMessage(sender,
+					"Reloaded PistonProtect's config");
 		}
 		return false;
 	}
