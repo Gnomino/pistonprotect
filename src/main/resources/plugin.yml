@@ -1,0 +1,13 @@
+name: PistonProtect
+author: Gnomino
+version: 1.0
+main: eu.gnomino.pistonprotect.PistonProtect
+commands:
+  pistonprotect-reload:
+    usage: /<command>
+    description: Reload PistonProtect's config.yml
+    permission: pistonprotect.reload
+permissions:
+  pistonprotect.reload:
+    description: Allows reloading PistonProtect
+    default: op

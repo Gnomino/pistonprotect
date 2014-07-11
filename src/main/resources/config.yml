@@ -1,0 +1,3 @@
+log_fails: true
+break_pistons_extend: false # Breaks the pistons that fail the extending tests
+break_sticky_retract: false # Breaks the sticky pistons that fail the retracting tests
